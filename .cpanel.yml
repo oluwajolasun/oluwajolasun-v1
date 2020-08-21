@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+  - export DEPLOYPATH=/home/nctests/git.nctest.info/
+  - cp index.php $DEPLOYPATH
