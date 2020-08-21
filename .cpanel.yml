@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-  - export DEPLOYPATH=/home/nctests/git.nctest.info/
-  - cp index.php $DEPLOYPATH
+  - export DEPLOYPATH=/home/raintclx/oluwajolasun.com/
+  - cp index.html $DEPLOYPATH
