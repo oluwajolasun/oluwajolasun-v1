@@ -2,4 +2,4 @@
 deployment:
   tasks:
   - export DEPLOYPATH=/home/raintclx/oluwajolasun.com/
-  - cp index.html $DEPLOYPATH
+  - cp -r * $DEPLOYPATH
