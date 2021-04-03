@@ -291,7 +291,15 @@ body {
 	padding-bottom: 5rem;
 	display: flex;
 	justify-content: center;
-	background-color: #eeeeee;
+	background: linear-gradient(
+			0deg,
+			rgba(255, 255, 255, 0.5),
+			rgba(255, 255, 255, 0.5)
+		),
+		url(../img/pexels-alex-andrews-821754.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
 }
 
 .contact {
