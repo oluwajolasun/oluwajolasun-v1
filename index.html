@@ -1,678 +1,728 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Primary Meta Tags -->
-    <title>Oluwajolasun's Portfolio</title>
-    <meta name="title" content="Oluwajolasun's Portfolio" />
-    <meta
-      name="description"
-      content="My personal website showcasing some projects"
-    />
-    <meta name="author" content="Oluwajolasun Jaiyesimi" />
+		<!-- Primary Meta Tags -->
+		<title>Oluwajolasun's Portfolio</title>
+		<meta name="title" content="Oluwajolasun's Portfolio" />
+		<meta
+			name="description"
+			content="My personal website showcasing some projects"
+		/>
+		<meta name="author" content="Oluwajolasun Jaiyesimi" />
 
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://oluwajolasun.com/" />
-    <meta property="og:title" content="Oluwajolasun's Portfolio" />
-    <meta
-      property="og:description"
-      content="My personal website showcasing some projects"
-    />
-    <meta
-      property="og:image"
-      content="https://oluwajolasun.com/img/headshot-square.jpg"
-    />
+		<!-- Open Graph / Facebook -->
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://oluwajolasun.com/" />
+		<meta property="og:title" content="Oluwajolasun's Portfolio" />
+		<meta
+			property="og:description"
+			content="My personal website showcasing some projects"
+		/>
+		<meta
+			property="og:image"
+			content="https://oluwajolasun.com/img/headshot-square.jpg"
+		/>
 
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="https://oluwajolasun.com/" />
-    <meta name="twitter:creator" content="@oluwajolasun" />
-    <meta name="twitter:title" content="Oluwajolasun's Portfolio" />
-    <meta
-      name="twitter:description"
-      content="My personal website showcasing some projects"
-    />
-    <meta
-      name="twitter:image"
-      content="https://oluwajolasun.com/img/headshot-square.jpg"
-    />
+		<!-- Twitter -->
+		<meta name="twitter:card" content="summary" />
+		<meta name="twitter:site" content="https://oluwajolasun.com/" />
+		<meta name="twitter:creator" content="@oluwajolasun" />
+		<meta name="twitter:title" content="Oluwajolasun's Portfolio" />
+		<meta
+			name="twitter:description"
+			content="My personal website showcasing some projects"
+		/>
+		<meta
+			name="twitter:image"
+			content="https://oluwajolasun.com/img/headshot-square.jpg"
+		/>
 
-    <meta
-      name="keywords"
-      content="Oluwajolasun Jaiyesimi, Oluwajolasun, Jaiyesimi, front-end, website, computer, software, developer, engineer, designer"
-    />
+		<meta
+			name="keywords"
+			content="Oluwajolasun Jaiyesimi, Oluwajolasun, Jaiyesimi, front-end, website, computer, software, developer, engineer, designer"
+		/>
 
-    <link rel="shortcut icon" href="img/favicon.png" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="font-awesome/css/all.css" />
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/style.css" />
+		<link rel="shortcut icon" href="img/favicon.png" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="font-awesome/css/all.css" />
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/style.css" />
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <!-- Google tag (gtag.js) -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-E4P156RY3H"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<!-- Google tag (gtag.js) -->
+		<script
+			async
+			src="https://www.googletagmanager.com/gtag/js?id=G-E4P156RY3H"
+		></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag("js", new Date());
 
-      gtag("config", "G-E4P156RY3H");
-    </script>
-  </head>
+			gtag("config", "G-E4P156RY3H");
+		</script>
+	</head>
 
-  <body data-spy="scroll" data-target="nav">
-    <!--NAVIGATION BAR-->
-    <nav class="navbar fixed-top navbar-expand-md navbar-custom">
-      <div class="container-fluid mr-3 ml-3">
-        <a class="logo" href="https://oluwajolasun.com/"
-          >Oluwajolasun Jaiyesimi</a
-        >
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <i class="fa fa-bars" aria-hidden="true"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link text-center" href="#home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-center" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-center" href="#skills">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-center" href="#projects">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-center" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+	<body data-spy="scroll" data-target="nav">
+		<!--NAVIGATION BAR-->
+		<nav class="navbar fixed-top navbar-expand-md navbar-custom">
+			<div class="container-fluid mr-3 ml-3">
+				<a class="logo" href="https://oluwajolasun.com/"
+					>Oluwajolasun Jaiyesimi</a
+				>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-toggle="collapse"
+					data-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<i class="fa fa-bars" aria-hidden="true"></i>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a class="nav-link text-center" href="#home">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-center" href="#about">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-center" href="#skills">Skills</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-center" href="#projects">Projects</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-center" href="#contact">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
 
-    <!--HOME SECTION-->
-    <section class="home text-center" id="home">
-      <div>
-        <div class="m-3">
-          <h1 class="">Hello world, I am Oluwajolasun.</h1>
-          <h4 class=" ">Fullstack Software Developer</h4>
-        </div>
-      </div>
-    </section>
+		<!--HOME SECTION-->
+		<section class="home text-center" id="home">
+			<div>
+				<div class="m-3">
+					<h1 class="">Hello world, I am Oluwajolasun.</h1>
+					<h4 class=" ">Fullstack Software Developer</h4>
+				</div>
+			</div>
+		</section>
 
-    <!--ABOUT SECTION-->
-    <section class="about" id="about">
-      <div class="container text-center">
-        <h1 class="about-header">About Me</h1>
-        <div class="about-content">
-          <div
-            class="d-flex justify-content-center align-content-center align-items-center"
-          >
-            <img
-              src="img/headshot-square.jpg"
-              class="profile-photo shadow"
-              alt="headshot-square"
-            />
-          </div>
+		<!--ABOUT SECTION-->
+		<section class="about" id="about">
+			<div class="container text-center">
+				<h1 class="about-header">About Me</h1>
+				<div class="about-content">
+					<div
+						class="d-flex justify-content-center align-content-center align-items-center"
+					>
+						<img
+							src="img/headshot-square.jpg"
+							class="profile-photo shadow"
+							alt="headshot-square"
+						/>
+					</div>
 
-          <div class="about-text">
-            <p>
-              Hello there, my name is Oluwajolasun Jaiyesimi and I am a recent
-              Masters Degree in Software Engineering graduate from the
-              University of Calgary. Also current residing in Calgary, Alberta.
-              I have a very passionate interest in developing fullstack
-              solutions and also an engaging experience.
-            </p>
-            <a
-              href="Oluwajolasun Olufemi Jaiyesimi CV.pdf"
-              class="btn cv-btn mt-4"
-              target="_blank"
-              >Download my CV
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
+					<div class="about-text">
+						<p>
+							Hello there, my name is Oluwajolasun Jaiyesimi and I am a recent
+							Masters Degree in Software Engineering graduate from the
+							University of Calgary. Also current residing in Calgary, Alberta.
+							I have a very passionate interest in developing fullstack
+							solutions and also an engaging experience.
+						</p>
+						<a
+							href="Oluwajolasun Olufemi Jaiyesimi CV.pdf"
+							class="btn cv-btn mt-4"
+							target="_blank"
+							>Download my CV
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
 
-    <!--SKILLS SECTION-->
-    <section class="skills" id="skills">
-      <div class="container text-center">
-        <h1>Skills</h1>
-        <p>These are my current skills and still learning more</p>
-        <div class="skills-content">
-          <div>
-            <h4>Development</h4>
-            <li>HTML5</li>
-            <li>CSS3/Sass</li>
-            <li>React.js</li>
-            <li>Node.js</li>
-            <li>Express.js</li>
-            <li>MySQL</li>
-            <li>MongoDB</li>
-          </div>
-          <div>
-            <h4>Tools</h4>
-            <li>Visual Studio Code</li>
-            <li>Git/GitHub</li>
-            <li>Firefox/Chrome (Dev Tools)</li>
-            <li>Amazon Web Services</li>
-            <li>Postman</li>
-          </div>
-          <div>
-            <h4>Design</h4>
-            <li>Adobe Lightroom</li>
-            <li>Adobe Photoshop</li>
-            <li>Adobe Illustrator</li>
-            <li>Figma</li>
-          </div>
-        </div>
-      </div>
-    </section>
+		<!--SKILLS SECTION-->
+		<section class="skills" id="skills">
+			<div class="container text-center">
+				<h1>Skills</h1>
+				<p>These are my current skills and still learning more</p>
+				<div class="skills-content">
+					<div>
+						<h4>Development</h4>
+						<li>HTML5</li>
+						<li>CSS3/Sass</li>
+						<li>React.js</li>
+						<li>Node.js</li>
+						<li>Express.js</li>
+						<li>MySQL</li>
+						<li>MongoDB</li>
+					</div>
+					<div>
+						<h4>Tools</h4>
+						<li>Visual Studio Code</li>
+						<li>Git/GitHub</li>
+						<li>Firefox/Chrome (Dev Tools)</li>
+						<li>Amazon Web Services</li>
+						<li>Postman</li>
+					</div>
+					<div>
+						<h4>Design</h4>
+						<li>Adobe Lightroom</li>
+						<li>Adobe Photoshop</li>
+						<li>Adobe Illustrator</li>
+						<li>Figma</li>
+					</div>
+				</div>
+			</div>
+		</section>
 
-    <!--PROJECTS SECTION-->
-    <section class="projects" id="projects">
-      <div class="container">
-        <div class="text-center mb-4">
-          <h1>Projects</h1>
-          <p>Below are my featured projects and more coming soon</p>
-        </div>
-        <div class="featured-project container">
-          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
-            <div class="col projects-item">
-              <img
-                class="card-img-top shadow"
-                src="/img/spotify-companion-app.png"
-                alt="gif searcher"
-              />
-              <div class="card-body">
-                <h5 class="card-title text-center">
-                  Spotify Companion App <br />(Web app)
-                </h5>
-                <div class="d-flex justify-content-center m-2">
-                  <a
-                    href="https://spotify-web-companion.netlify.app/"
-                    target="_blank"
-                    class="btn projects-btn mr-3"
-                    >visit site</a
-                  >
-                  <a
-                    href="https://github.com/oluwajolasun/Spotify"
-                    target="_blank"
-                    class="btn projects-btn"
-                    >view source</a
-                  >
-                </div>
-                <div class="d-flex justify-content-center">
-                  <i
-                    class="fas fa-angle-down p-2"
-                    data-toggle="collapse"
-                    data-target="#project-6"
-                    aria-expanded="false"
-                    aria-controls="project-6"
-                  ></i>
-                </div>
-                <div class="collapse" id="project-6">
-                  <p class="card-text text-center">
-                    You do not have to wait to the end of the year to view your
-                    Spotify unwrapped when I have this companion app more
-                    features coming soon...
-                  </p>
-                  <div>
-                    <div class="d-flex justify-content-center">
-                      <img
-                        class="dev-icons"
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
-                        alt="expressJS"
-                      />
-                      <img
-                        class="dev-icons"
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
-                        alt="react"
-                      />
-                      <img
-                        class="dev-icons"
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
-                        alt="nodeJS"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col projects-item">
-              <img
-                class="card-img-top shadow"
-                src="/img/student_app.png"
-                alt="gif searcher"
-              />
-              <div class="card-body">
-                <h5 class="card-title text-center">
-                  Student Registration System <br />(Web app)
-                </h5>
-                <div class="d-flex justify-content-center m-2">
-                  <a
-                    href="https://student-registration-system-uofc.netlify.app/"
-                    target="_blank"
-                    class="btn projects-btn mr-3"
-                    >visit site</a
-                  >
-                  <a
-                    href="https://github.com/oluwajolasun/Student-Registration-System"
-                    target="_blank"
-                    class="btn projects-btn"
-                    >view source</a
-                  >
-                </div>
-                <div class="d-flex justify-content-center">
-                  <i
-                    class="fas fa-angle-down p-2"
-                    data-toggle="collapse"
-                    data-target="#project-7"
-                    aria-expanded="false"
-                    aria-controls="project-7"
-                  ></i>
-                </div>
-                <div class="collapse" id="project-7">
-                  <p class="card-text text-center">
-                    A web app for registered students to view all courses, view
-                    their registered courses, enrol to a course and drop a
-                    course
-                  </p>
-                  <div>
-                    <div class="d-flex justify-content-center">
-                      <img
-                        class="dev-icons"
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
-                        alt="expressJS"
-                      />
+		<!--PROJECTS SECTION-->
+		<section class="projects" id="projects">
+			<div class="container">
+				<div class="text-center mb-4">
+					<h1>Projects</h1>
+					<p>Below are my featured projects and more coming soon</p>
+				</div>
+				<div class="featured-project container">
+					<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+						<div class="col projects-item">
+							<img
+								class="card-img-top shadow"
+								src="/img/spotify-companion-app.png"
+								alt="gif searcher"
+							/>
+							<div class="card-body">
+								<h5 class="card-title text-center">
+									Spotify Companion App <br />(Web app)
+								</h5>
+								<div class="d-flex justify-content-center m-2">
+									<a
+										href="https://spotify-web-companion.netlify.app/"
+										target="_blank"
+										class="btn projects-btn mr-3"
+										>visit site</a
+									>
+									<a
+										href="https://github.com/oluwajolasun/Spotify"
+										target="_blank"
+										class="btn projects-btn"
+										>view source</a
+									>
+								</div>
+								<div class="d-flex justify-content-center">
+									<i
+										class="fas fa-angle-down p-2"
+										data-toggle="collapse"
+										data-target="#project-6"
+										aria-expanded="false"
+										aria-controls="project-6"
+									></i>
+								</div>
+								<div class="collapse" id="project-6">
+									<p class="card-text text-center">
+										You do not have to wait to the end of the year to view your
+										Spotify unwrapped when I have this companion app more
+										features coming soon...
+									</p>
+									<div>
+										<div class="d-flex justify-content-center">
+											<img
+												class="dev-icons"
+												src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+												alt="expressJS"
+											/>
+											<img
+												class="dev-icons"
+												src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
+												alt="react"
+											/>
+											<img
+												class="dev-icons"
+												src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+												alt="nodeJS"
+											/>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col projects-item">
+							<img
+								class="card-img-top shadow"
+								src="/img/student_app.png"
+								alt="gif searcher"
+							/>
+							<div class="card-body">
+								<h5 class="card-title text-center">
+									Student Registration System <br />(Web app)
+								</h5>
+								<div class="d-flex justify-content-center m-2">
+									<a
+										href="https://student-registration-system-uofc.netlify.app/"
+										target="_blank"
+										class="btn projects-btn mr-3"
+										>visit site</a
+									>
+									<a
+										href="https://github.com/oluwajolasun/Student-Registration-System"
+										target="_blank"
+										class="btn projects-btn"
+										>view source</a
+									>
+								</div>
+								<div class="d-flex justify-content-center">
+									<i
+										class="fas fa-angle-down p-2"
+										data-toggle="collapse"
+										data-target="#project-7"
+										aria-expanded="false"
+										aria-controls="project-7"
+									></i>
+								</div>
+								<div class="collapse" id="project-7">
+									<p class="card-text text-center">
+										A web app for registered students to view all courses, view
+										their registered courses, enrol to a course and drop a
+										course
+									</p>
+									<div>
+										<div class="d-flex justify-content-center">
+											<img
+												class="dev-icons"
+												src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+												alt="expressJS"
+											/>
 
-                      <img
-                        class="dev-icons"
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
-                        alt="mysql"
-                      />
+											<img
+												class="dev-icons"
+												src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
+												alt="mysql"
+											/>
 
-                      <img
-                        class="dev-icons"
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
-                        alt="react"
-                      />
+											<img
+												class="dev-icons"
+												src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
+												alt="react"
+											/>
 
-                      <img
-                        class="dev-icons"
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
-                        alt="nodeJS"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+											<img
+												class="dev-icons"
+												src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+												alt="nodeJS"
+											/>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
 
-            <div class="col projects-item">
-              <img
-                class="card-img-top shadow"
-                src="img/afcom-oil-and-gas.png"
-                alt="afcom-oil-and-gas"
-              />
-              <div class="card-body">
-                <h5 class="card-title text-center">
-                  Afcom Oil and Gas <br />
-                  (Website)
-                </h5>
-                <div class="d-flex justify-content-center m-2">
-                  <a
-                    href="https://afcomoilandgas.com/"
-                    target="_blank"
-                    class="btn projects-btn"
-                    >visit site
-                  </a>
-                </div>
-                <div class="d-flex align-items-center justify-content-center">
-                  <i
-                    class="fas fa-angle-down p-2"
-                    data-toggle="collapse"
-                    data-target="#project-5"
-                    aria-expanded="false"
-                    aria-controls="project-5"
-                  ></i>
-                </div>
-                <div class="collapse" id="project-5">
-                  <p class="card-text text-center">
-                    A static website for an oil and gas organization.
-                  </p>
-                  <div>
-                    <div class="d-flex justify-content-center">
-                      <img
-                        src="img/dev-icons/wordpress.svg"
-                        class="dev-icons"
-                        alt="wordpress"
-                      />
-                      <img
-                        src="img/dev-icons/cpanel.svg"
-                        class="dev-icons"
-                        alt="cpanel"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+						<div class="col projects-item">
+							<img
+								class="card-img-top shadow"
+								src="img/afcom-oil-and-gas.png"
+								alt="afcom-oil-and-gas"
+							/>
+							<div class="card-body">
+								<h5 class="card-title text-center">
+									Afcom Oil and Gas <br />
+									(Website)
+								</h5>
+								<div class="d-flex justify-content-center m-2">
+									<a
+										href="https://afcomoilandgas.com/"
+										target="_blank"
+										class="btn projects-btn"
+										>visit site
+									</a>
+								</div>
+								<div class="d-flex align-items-center justify-content-center">
+									<i
+										class="fas fa-angle-down p-2"
+										data-toggle="collapse"
+										data-target="#project-5"
+										aria-expanded="false"
+										aria-controls="project-5"
+									></i>
+								</div>
+								<div class="collapse" id="project-5">
+									<p class="card-text text-center">
+										A static website for an oil and gas organization.
+									</p>
+									<div>
+										<div class="d-flex justify-content-center">
+											<img
+												src="img/dev-icons/wordpress.svg"
+												class="dev-icons"
+												alt="wordpress"
+											/>
+											<img
+												src="img/dev-icons/cpanel.svg"
+												class="dev-icons"
+												alt="cpanel"
+											/>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
 
-            <div class="col projects-item">
-              <img
-                class="card-img-top shadow"
-                src="/img/covid-19-tracker.png"
-                alt="covid-19 tracker"
-              />
-              <div class="card-body">
-                <h5 class="card-title text-center">
-                  COVID-19 Tracker <br />
-                  (Web app)
-                </h5>
-                <div class="d-flex justify-content-center m-2">
-                  <a
-                    href="https://oluwajolasun-covid-19-tracker.netlify.app/"
-                    target="_blank"
-                    class="btn projects-btn mr-3"
-                    >visit site</a
-                  >
-                  <a
-                    href="https://github.com/oluwajolasun/covid19-tracker-reactjs"
-                    target="_blank"
-                    class="btn projects-btn"
-                    >view source</a
-                  >
-                </div>
-                <div class="d-flex justify-content-center">
-                  <i
-                    class="fas fa-angle-down p-2"
-                    data-toggle="collapse"
-                    data-target="#project-4"
-                    aria-expanded="false"
-                    aria-controls="project-4"
-                  ></i>
-                </div>
-                <div class="collapse" id="project-4">
-                  <p class="card-text text-center">
-                    This is a minimal Corona Virus Tracker for viewing
-                    confirmed, recovered and death cases of selected Countries
-                    or worldwide
-                  </p>
-                  <div>
-                    <div class="d-flex justify-content-center">
-                      <img
-                        src="img/dev-icons/react.svg"
-                        class="dev-icons"
-                        alt="react"
-                      />
-                      <img
-                        src="img/dev-icons/material-ui.svg"
-                        class="dev-icons"
-                        alt="material-ui"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+						<div class="col projects-item">
+							<img
+								class="card-img-top shadow"
+								src="img/place-of-praise.png"
+								alt="place-of-praise"
+							/>
+							<div class="card-body">
+								<h5 class="card-title text-center">
+									The Place of Praise <br />
+									(Website)
+								</h5>
+								<div class="d-flex justify-content-center m-2">
+									<a
+										href="https://theplaceofpraise.com/"
+										target="_blank"
+										class="btn projects-btn"
+										>visit site
+									</a>
+								</div>
+								<div class="d-flex align-items-center justify-content-center">
+									<i
+										class="fas fa-angle-down p-2"
+										data-toggle="collapse"
+										data-target="#project-8"
+										aria-expanded="false"
+										aria-controls="project-8"
+									></i>
+								</div>
+								<div class="collapse" id="project-8">
+									<p class="card-text text-center">
+										A static website for a place of praise and worship.
+									</p>
+									<div>
+										<div class="d-flex justify-content-center">
+											<img
+												src="img/dev-icons/wordpress.svg"
+												class="dev-icons"
+												alt="wordpress"
+											/>
+											<img
+												src="img/dev-icons/cpanel.svg"
+												class="dev-icons"
+												alt="cpanel"
+											/>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
 
-            <div class="col projects-item">
-              <img
-                class="card-img-top shadow"
-                src="/img/gif-searcher.png"
-                alt="gif searcher"
-              />
-              <div class="card-body">
-                <h5 class="card-title text-center">
-                  Gif Searcher <br />(Web app)
-                </h5>
-                <div class="d-flex justify-content-center m-2">
-                  <a
-                    href="https://gif-searcher-oluwajolasun.netlify.app/"
-                    target="_blank"
-                    class="btn projects-btn mr-3"
-                    >visit site</a
-                  >
-                  <a
-                    href="https://github.com/oluwajolasun/gif-app-reactjs"
-                    target="_blank"
-                    class="btn projects-btn"
-                    >view source</a
-                  >
-                </div>
-                <div class="d-flex justify-content-center">
-                  <i
-                    class="fas fa-angle-down p-2"
-                    data-toggle="collapse"
-                    data-target="#project-3"
-                    aria-expanded="false"
-                    aria-controls="project-3"
-                  ></i>
-                </div>
-                <div class="collapse" id="project-3">
-                  <p class="card-text text-center">
-                    One of my first react project created to understand how
-                    react works, a gif searcher (using the giphy api) a user can
-                    search for and click on the gif for details
-                  </p>
-                  <div>
-                    <div class="d-flex justify-content-center">
-                      <img
-                        src="img/dev-icons/react.svg"
-                        class="dev-icons"
-                        alt="react"
-                      />
-                      <img
-                        src="img/dev-icons/bootstrap.svg"
-                        class="dev-icons"
-                        alt="bootstrap"
-                      />
-                      <img
-                        src="img/dev-icons/giphy.svg"
-                        class="dev-icons"
-                        alt="giphy-api"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+						<div class="col projects-item">
+							<img
+								class="card-img-top shadow"
+								src="/img/covid-19-tracker.png"
+								alt="covid-19 tracker"
+							/>
+							<div class="card-body">
+								<h5 class="card-title text-center">
+									COVID-19 Tracker <br />
+									(Web app)
+								</h5>
+								<div class="d-flex justify-content-center m-2">
+									<a
+										href="https://oluwajolasun-covid-19-tracker.netlify.app/"
+										target="_blank"
+										class="btn projects-btn mr-3"
+										>visit site</a
+									>
+									<a
+										href="https://github.com/oluwajolasun/covid19-tracker-reactjs"
+										target="_blank"
+										class="btn projects-btn"
+										>view source</a
+									>
+								</div>
+								<div class="d-flex justify-content-center">
+									<i
+										class="fas fa-angle-down p-2"
+										data-toggle="collapse"
+										data-target="#project-4"
+										aria-expanded="false"
+										aria-controls="project-4"
+									></i>
+								</div>
+								<div class="collapse" id="project-4">
+									<p class="card-text text-center">
+										This is a minimal Corona Virus Tracker for viewing
+										confirmed, recovered and death cases of selected Countries
+										or worldwide
+									</p>
+									<div>
+										<div class="d-flex justify-content-center">
+											<img
+												src="img/dev-icons/react.svg"
+												class="dev-icons"
+												alt="react"
+											/>
+											<img
+												src="img/dev-icons/material-ui.svg"
+												class="dev-icons"
+												alt="material-ui"
+											/>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
 
-            <div class="col projects-item">
-              <img
-                class="card-img-top shadow"
-                src="img/weather-app.png"
-                alt="portfolio"
-              />
-              <div class="card-body">
-                <h5 class="card-title text-center">
-                  Weather App <br />(Web app)
-                </h5>
-                <div class="d-flex justify-content-center m-2">
-                  <a
-                    href="https://oluwajolasun.github.io/a-weather-web-app/"
-                    target="_blank"
-                    class="btn projects-btn mr-3"
-                    >visit site</a
-                  >
-                  <a
-                    href="https://github.com/oluwajolasun/a-weather-web-app  "
-                    target="_blank"
-                    class="btn projects-btn"
-                    >view source</a
-                  >
-                </div>
-                <div class="d-flex justify-content-center">
-                  <i
-                    class="fas fa-angle-down p-2"
-                    data-toggle="collapse"
-                    data-target="#project-2"
-                    aria-expanded="false"
-                    aria-controls="project-2"
-                  ></i>
-                </div>
-                <div class="collapse" id="project-2">
-                  <p class="card-text text-center">
-                    A webapp that displays the weather forecast of your current
-                    location by accessing your current coordinates from your
-                    device pulling its data from an API
-                  </p>
-                  <div>
-                    <div class="d-flex justify-content-center">
-                      <img
-                        src="img/dev-icons/html5.svg"
-                        class="dev-icons"
-                        alt="html5-file"
-                      />
-                      <img
-                        src="img/dev-icons/css3.svg"
-                        class="dev-icons"
-                        alt="css3-file"
-                      />
-                      <img
-                        src="img/dev-icons/javascript.svg"
-                        class="dev-icons"
-                        alt="javascript"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+						<div class="col projects-item">
+							<img
+								class="card-img-top shadow"
+								src="/img/gif-searcher.png"
+								alt="gif searcher"
+							/>
+							<div class="card-body">
+								<h5 class="card-title text-center">
+									Gif Searcher <br />(Web app)
+								</h5>
+								<div class="d-flex justify-content-center m-2">
+									<a
+										href="https://gif-searcher-oluwajolasun.netlify.app/"
+										target="_blank"
+										class="btn projects-btn mr-3"
+										>visit site</a
+									>
+									<a
+										href="https://github.com/oluwajolasun/gif-app-reactjs"
+										target="_blank"
+										class="btn projects-btn"
+										>view source</a
+									>
+								</div>
+								<div class="d-flex justify-content-center">
+									<i
+										class="fas fa-angle-down p-2"
+										data-toggle="collapse"
+										data-target="#project-3"
+										aria-expanded="false"
+										aria-controls="project-3"
+									></i>
+								</div>
+								<div class="collapse" id="project-3">
+									<p class="card-text text-center">
+										One of my first react project created to understand how
+										react works, a gif searcher (using the giphy api) a user can
+										search for and click on the gif for details
+									</p>
+									<div>
+										<div class="d-flex justify-content-center">
+											<img
+												src="img/dev-icons/react.svg"
+												class="dev-icons"
+												alt="react"
+											/>
+											<img
+												src="img/dev-icons/bootstrap.svg"
+												class="dev-icons"
+												alt="bootstrap"
+											/>
+											<img
+												src="img/dev-icons/giphy.svg"
+												class="dev-icons"
+												alt="giphy-api"
+											/>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
 
-            <div class="col projects-item">
-              <img
-                class="card-img-top shadow"
-                src="img/portfolio.png"
-                alt="portfolio"
-              />
-              <div class="card-body">
-                <h5 class="card-title text-center">
-                  My portfolio <br />(Website)
-                </h5>
-                <div class="d-flex justify-content-center m-2">
-                  <a
-                    href="https://oluwajolasun.com/"
-                    class="btn projects-btn mr-3"
-                    >visit site</a
-                  >
-                  <a
-                    href="https://github.com/oluwajolasun/Portfolio"
-                    target="_blank"
-                    class="btn projects-btn"
-                    >view source</a
-                  >
-                </div>
-                <div class="d-flex justify-content-center">
-                  <i
-                    class="fas fa-angle-down p-2"
-                    data-toggle="collapse"
-                    data-target="#project-1"
-                    aria-expanded="false"
-                    aria-controls="project-1"
-                  ></i>
-                </div>
-                <div class="collapse" id="project-1">
-                  <p class="card-text text-center">
-                    An early project made from scratch which went through
-                    different versions. Understanding of HTML, CSS and JS was
-                    vital before i could finalize the design of this portfolio.
-                  </p>
-                  <div>
-                    <div class="d-flex justify-content-center">
-                      <img
-                        src="img/dev-icons/html5.svg"
-                        class="dev-icons"
-                        alt="html5-file"
-                      />
-                      <img
-                        src="img/dev-icons/css3.svg"
-                        class="dev-icons"
-                        alt="css3-file"
-                      />
-                      <img
-                        src="img/dev-icons/bootstrap.svg"
-                        class="dev-icons"
-                        alt="bootstrap"
-                      />
-                      <img
-                        src="img/dev-icons/javascript.svg"
-                        class="dev-icons"
-                        alt="javascript"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+						<div class="col projects-item">
+							<img
+								class="card-img-top shadow"
+								src="img/weather-app.png"
+								alt="portfolio"
+							/>
+							<div class="card-body">
+								<h5 class="card-title text-center">
+									Weather App <br />(Web app)
+								</h5>
+								<div class="d-flex justify-content-center m-2">
+									<a
+										href="https://oluwajolasun.github.io/a-weather-web-app/"
+										target="_blank"
+										class="btn projects-btn mr-3"
+										>visit site</a
+									>
+									<a
+										href="https://github.com/oluwajolasun/a-weather-web-app  "
+										target="_blank"
+										class="btn projects-btn"
+										>view source</a
+									>
+								</div>
+								<div class="d-flex justify-content-center">
+									<i
+										class="fas fa-angle-down p-2"
+										data-toggle="collapse"
+										data-target="#project-2"
+										aria-expanded="false"
+										aria-controls="project-2"
+									></i>
+								</div>
+								<div class="collapse" id="project-2">
+									<p class="card-text text-center">
+										A webapp that displays the weather forecast of your current
+										location by accessing your current coordinates from your
+										device pulling its data from an API
+									</p>
+									<div>
+										<div class="d-flex justify-content-center">
+											<img
+												src="img/dev-icons/html5.svg"
+												class="dev-icons"
+												alt="html5-file"
+											/>
+											<img
+												src="img/dev-icons/css3.svg"
+												class="dev-icons"
+												alt="css3-file"
+											/>
+											<img
+												src="img/dev-icons/javascript.svg"
+												class="dev-icons"
+												alt="javascript"
+											/>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
 
-    <!--CONTACT SECTION-->
-    <section class="section overlay" id="contact">
-      <div class="contact container">
-        <div class="contact-mail">
-          <h1 class="text-center">Contact me</h1>
-          <p>Via email</p>
-          <a href="mailto:jolasunjaiyesimi@gmail.com"
-            ><i class="fas fa-envelope contact-icons"></i
-          ></a>
-        </div>
-        <div class="get-in-touch">
-          <h1 class="text-center">Also get in touch</h1>
-          <div class="contact-socials p-2">
-            <a href="https://github.com/oluwajolasun" target="_blank"
-              ><i class="fab fa-github contact-icons"></i
-            ></a>
-            <a href="https://www.linkedin.com/in/oluwajolasun/" target="_blank"
-              ><i class="fab fa-linkedin-in contact-icons"></i
-            ></a>
-            <a href="https://twitter.com/oluwajolasun" target="_blank"
-              ><i class="fab fa-twitter contact-icons"></i
-            ></a>
-            <a href="https://www.instagram.com/oluwajolasun/" target="_blank"
-              ><i class="fab fa-instagram contact-icons"></i
-            ></a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <footer id="footer">
-      <div class="footer container text-center">
-        <p>
-          Developed and designed by Oluwajolasun
-          <script>
-            document.write(new Date().getFullYear());
-          </script>
-        </p>
-      </div>
-    </footer>
-    <script src="js/jquery-3.5.1.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/main.js"></script>
-  </body>
+						<div class="col projects-item">
+							<img
+								class="card-img-top shadow"
+								src="img/portfolio.png"
+								alt="portfolio"
+							/>
+							<div class="card-body">
+								<h5 class="card-title text-center">
+									My portfolio <br />(Website)
+								</h5>
+								<div class="d-flex justify-content-center m-2">
+									<a
+										href="https://oluwajolasun.com/"
+										class="btn projects-btn mr-3"
+										>visit site</a
+									>
+									<a
+										href="https://github.com/oluwajolasun/Portfolio"
+										target="_blank"
+										class="btn projects-btn"
+										>view source</a
+									>
+								</div>
+								<div class="d-flex justify-content-center">
+									<i
+										class="fas fa-angle-down p-2"
+										data-toggle="collapse"
+										data-target="#project-1"
+										aria-expanded="false"
+										aria-controls="project-1"
+									></i>
+								</div>
+								<div class="collapse" id="project-1">
+									<p class="card-text text-center">
+										An early project made from scratch which went through
+										different versions. Understanding of HTML, CSS and JS was
+										vital before i could finalize the design of this portfolio.
+									</p>
+									<div>
+										<div class="d-flex justify-content-center">
+											<img
+												src="img/dev-icons/html5.svg"
+												class="dev-icons"
+												alt="html5-file"
+											/>
+											<img
+												src="img/dev-icons/css3.svg"
+												class="dev-icons"
+												alt="css3-file"
+											/>
+											<img
+												src="img/dev-icons/bootstrap.svg"
+												class="dev-icons"
+												alt="bootstrap"
+											/>
+											<img
+												src="img/dev-icons/javascript.svg"
+												class="dev-icons"
+												alt="javascript"
+											/>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!--CONTACT SECTION-->
+		<section class="section overlay" id="contact">
+			<div class="contact container">
+				<div class="contact-mail">
+					<h1 class="text-center">Contact me</h1>
+					<p>Via email</p>
+					<a href="mailto:jolasunjaiyesimi@gmail.com"
+						><i class="fas fa-envelope contact-icons"></i
+					></a>
+				</div>
+				<div class="get-in-touch">
+					<h1 class="text-center">Also get in touch</h1>
+					<div class="contact-socials p-2">
+						<a href="https://github.com/oluwajolasun" target="_blank"
+							><i class="fab fa-github contact-icons"></i
+						></a>
+						<a href="https://www.linkedin.com/in/oluwajolasun/" target="_blank"
+							><i class="fab fa-linkedin-in contact-icons"></i
+						></a>
+						<a href="https://twitter.com/oluwajolasun" target="_blank"
+							><i class="fab fa-twitter contact-icons"></i
+						></a>
+						<a href="https://www.instagram.com/oluwajolasun/" target="_blank"
+							><i class="fab fa-instagram contact-icons"></i
+						></a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer id="footer">
+			<div class="footer container text-center">
+				<p>
+					Developed and designed by Oluwajolasun
+					<script>
+						document.write(new Date().getFullYear());
+					</script>
+				</p>
+			</div>
+		</footer>
+		<script src="js/jquery-3.5.1.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/main.js"></script>
+	</body>
 </html>
